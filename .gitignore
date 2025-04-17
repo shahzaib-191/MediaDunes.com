@@ -68,7 +68,6 @@ lcov.info
 *.sql
 *.sqlite
 *.sqlite3
-*.db
 
 ############################
 # Uploaded Media (Optional)
