@@ -1,0 +1,92 @@
+############################
+# OS & System Files
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+############################
+# Temporary & Backup Files
+############################
+*~
+*#
+*.log
+*.out
+*.pid
+*.swp
+*.swo
+*.swn
+.tsbuildinfo
+.eslintcache
+
+############################
+# Development & IDE
+############################
+.idea/
+.vscode/
+nbproject/
+
+############################
+# Node.js / NPM / Yarn
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/patches
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+############################
+# Build and Cache
+############################
+.cache/
+.tmp/
+build/
+dist/
+coverage/
+lib-cov
+lcov.info
+
+############################
+# Logs and Databases
+############################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+############################
+# Uploaded Media (Optional)
+############################
+public/uploads/
+!public/uploads/.gitkeep
+
+############################
+# Environment & Secrets
+############################
+.env
+.env.*.local
+
+############################
+# Strapi Specific
+############################
+exports/
+.strapi/
+.strapi-updater.json
+.strapi-cloud.json
+license.txt
